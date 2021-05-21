@@ -1,0 +1,592 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandurbar</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nandurbar.css">
+    <link rel ="shortcut icon" href = "favicon.png" type ="image/x-icon">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <div class="logo">
+              <a href="C:\Users\Dell\Desktop\My project\capstone website\SOURCE CODE\nashik.html"><img src="logo 3.png" width="600" height="400" size="200"></a>
+          </div>
+          
+           <div class="nav-links">
+              <ul>
+                <li><a href="#destinationsdiv">Destinations</a></li>
+                <li><a href="#cuisinediv">Cuisine</a></li>
+                <li><a href="#shoppingdiv">Shopping Attractions</a></li>
+              </ul>
+          </div>
+        </nav>
+        <div class="text-box">
+          <h1>NANDURBAR</h1> 
+           <p> " Beautiful land of Khandesh ! "</p>
+        </div>
+   </section>
+        <section class="information">
+           <p>Nandurbar is an administrative district in the northwest corner (Khandesh Region) of
+            Maharashtra state in India . On 1 July 1998 Dhule was bifurcated as two separate districts now
+            known as Dhule and Nandurbar. The district headquarters are located at Nandurbar city
+            <span id="dots">...</span><span id="more">
+              
+                 The district occupies an area of 5955 km² and has a population of 16,48,295 of which 15.45% were
+                urban (as of 2001)Nandurbar district is bounded to the south and south-east by Dhule district,
+                to the west and north is the state of Gujarat, to the north and north-east is the state of Madhya
+                Pradesh. The northern boundary of the district is defined by the great Narmada river.
+                
+            </span> </p>
+        </section>
+        <button type="button" id="read" onclick="read()">Read more</button>
+          <script type="text/javascript">
+           var j=0;
+           function read(){
+              if(!j){
+                 document.getElementById("more").style.
+                 display = "inline";
+                 document.getElementById("dots").style.
+                 display  = "none";
+                 document.getElementById("read").innerHTML=
+                 "Read less";
+                 j=2;
+            }
+              else{
+                  document.getElementById("more").style.
+                  display = "none";
+                  document.getElementById("dots").style.
+                  display  = "inline";
+                  document.getElementById("read").innerHTML=
+                  "Read more";
+                  j=2;
+            }
+         }
+       </script>
+       <!--this is code for population and other area literacy rate-->
+       <section class="population">
+       <div class="container1">
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="populationicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>POPULATION</h3>
+                        <h4>16.5 Lakhs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <br>    
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="areaicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>AREA</h3>
+                        <h4> 5955 Sq.km</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>     
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="literacyicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>LITERACY RATE</h3>
+                        <h4>46.63%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--end-->
+<!--this is code for destination slider-->
+<section class="taglineofdestination">
+    <img src="destinationslogo.png" width="150" height="150" sizes="50" >
+     <h3> Here are the destinations for you !</h3>
+</section> 
+<section class="destinations" id="destinationsdiv">
+    <div class="tabs">
+        <div class="start">
+            <div class="active">
+                <i class="fa fa-code"></i>Dandpaneshwar 
+                
+            </div>
+            <div>
+                <i class="fa fa-pencil-square"></i>Tornadevi Temple
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>Yeshwant Lake
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Unapdev
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Machindranath cave
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Syed Dargah
+            </div>
+        </div>
+        <div class="tab-indicator"></div>
+        <div class="tab-content">
+            <div class="active">
+                <i class="fa fa-code"></i>
+                <h3>Dandpaneshwar Ganesh Temple</h3>
+                <br>
+                <h5>Location:Kokni Hill, Dudhale Shivar, Nandurbar, Maharashtra 425412</h5>
+                <h5>Way to reach: Nearest bus depot which is at sahada at 55 km from tornmal. Hire a jeep sumo for 5-6rs per km. </h5>
+                <h5>Near by attractions:khadki pt, cb water park</h5>
+                <p>    Dandpaneshwar Ganesh Temple is one of the religious place in Nandurbar District.It is a famous pleasent picnic point. It is one of the most popular temple where thousands of devotees visit this through out of the year.
+                    Dandpaneshwar is an ancient Lord Ganesha temple situated in outskirts of Nandurbar.
+                
+ 
+                </p>
+                <p>Lot of people have faith in this temple and many people visit on Tuesdays and in Ganesh
+                    chaturthi. Temple was very small before some devotee has done renovations and given very
+                    beautiful look. There is also shivling near Ganesha's murti. View photos have attached.
+                    They have developed small garden where they run toy train. At very minimal price kids can enjoy
+                    train ride. Moreover trust is planning to develop dancing fountain for visitors.
+                    
+                </p>
+                
+                <i class="images">
+                    <img src="Nadurbar/dand1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Nadurbar/dand2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Nadurbar/dand3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-pencil-square" id="squarediv"></i>
+                <h3>Tornadevi Temple</h3>
+                <br>
+                <h5>Location:khadki Maharashtra 425432</h5>
+                <h5>Way to reach:public transport option: buses, taxis and auto will reach you here from any point in the city.</h5>
+                <h5>Near by attractions:machindra nath cave, yashwant lake & khadki pt.</h5>
+                <p>The Torna Devi Temple is more than six hundred years old. The deity that is enshrined in the temple is that of Goddess Torna Devi. The idol of the Goddess has been made in black stone. The shrine is located in the Tornamal hill station.
+                    
+                </p>
+                <br>
+                <p>toranmal ranked second hill station in maharashtra , believe it is . completely natural and
+                    not yet any human interference, no artifical constuction completely in the dep sleep of natural
+                    greenery . place is full of waterfalls and an awesome foggy weather and also sweeta and tasty
+                    strawberries . it is been surrounded by big saptringi mountain hills . 2-3 hotels to stay and there
+                    is famous temple near by . a lot of travellers comes once in a year for loal mela and blessings
+                         
+                   </p>
+                <br>
+                <br>
+                 <i class="images">
+                     <img src="Nadurbar/tor1.jpeg" width="300" height="200" sizes="50">
+                  <br><br>
+                    <img src="Nadurbar/tor2.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                    <img src="Nadurbar/tor3.jpeg" width="300" height="200" sizes="50">
+                 </i>
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>
+                <h3>Yeshwant lake</h3>
+                <br>
+                <h5>Location: Toranmal, Nandurbar India </h5>
+                <h5>Way to reach:buses, taxis and auto will reach you here from any point in the city. </h5>
+                <h5>Near by attraction: : khadki point, tornadevi temple, machindranath cave.</h5>
+                <p>Yashavant Lake is a beautiful natural lake spreading over an area of 1.59 sq km. The lake derives its name from Yashwant Rao Chavan, the former Chief Minister of Maharashtra.</p>
+                <br>
+                <p>    To the southern part of Toranmal is the Yashwant Lake. It is also known as Kamal Talao which is covered with lotus flowers. The water from the steam flows into the Sita Khai in the forests. Tourists can get to see this beautiful lake filled with lotuses and the chilling water that flows into the Sita Khai.       </p>
+                <br>
+                <p>    It's a picturesque lake near toranmal hill stations. Went there in evening, the setting sun made the visit memorable. Also there were some lotus flower there</p>
+                <br>
+                <i class="images">
+                    <img src="Nadurbar/lake1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Nadurbar/lake2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Nadurbar/lake3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Unapdev</h3>
+                <br>
+                <h5>Location: sahada , nadurbar Maharashtra</h5>
+                <h5>Way to reach:  public transport service is available </h5>
+                <h5>Near by attractions:Sunapdev & manudevi Temple .</h5>
+                <p> The Unapdev hot water springs are located at a distance of 6 km from Adavad village in Shahada taluka of Nandurbar District in Maharashtra State. It always has water coming from a structure in the shape like a cow’s mouth. Unapdev is famous for the Hot Waster Spring.   
+                    
+                    </p>
+                <p>      Unapdev located in foothills of Satpuda hills range, Unapdev is one of holy remote
+                    place at a distance of 2km from Vardi village. This places have special mention in ancient holy
+                    </p>
+                    <p>     'Ramayana' and had auspicious touch of Lord Rama during his fourteen years expulsion from
+                        Ayodhya. Khandesh's deity Manudevi, Shiragad's Amba Bhavani Goddesses are other two sacred places.
+                        
+                        </p>
+                
+                <i class="images">
+                    <img src="Nadurbar/unu1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Nadurbar/unu2.jpeg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Nadurbar/unu3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Machhindranath cave </h3>
+                <br>
+                <h5>Location: khadki Maharashtra 425432</h5>
+                <h5>Way to Reach: : public transport option: buses, taxis and auto will reach you here from any point in the city </h5>
+                <h5>Neraby attraction: : tornadevi temple, yashwant lake & khadki pt.</h5>
+ 
+                <p>Machhindranath cave is naturally formed cave which is aid to be a meditating place of Saint Machindranath. Located in the vicinity to this cave are Machindranath Mandir and the Seat of Sage Markendeya</p>
+                
+                <p>  Machindranath cave is believed to be meditating place of sage Machindranath. Tourist visiting this naturally formed cave can head towards the Machindranath mandir and Markendeya Rishi's seat.
+ 
+                </p>
+            
+                <p>The Mandal maintains of modest Museum containing copper plates, coins, acroliths miniatures, painting, fine manuscript. Besides there is a picture gallery exhibiting large portraits of many historical personages a well as research scholars.</p>
+                <i class="images">
+                    <img src="Nadurbar/cave1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Nadurbar/cave2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Nadurbar/cave3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Daragh syed Allaudin urf Imam Saheb's</h3>
+                <br>
+                <h5>Location: Nadurbar, Maharashtra. </h5>
+                <h5>Way to reach: Nearest bus depot which is at sahada at 55 km from tornmal. Hire a jeep sumo for 5-6rs per km  </h5>
+                <h5>Nearby attraction: Khadki point. </h5>
+                <p>Daragh syed Allaudin urf Imam Saheb's as popularly known as perhaps the most conspicuous site of nadurbar district. it's on hilltop at extreme end of towneship can be seen. The Daragh of Imran Saheb is very big structure with a number of large entry gates on the way.</p>
+                <br>
+                <p>The Dargahof syed Allaudin urf Imam Saheb's Dargah is the most popular dargah of
+                    Nandurbar.The nearest airport to reach this place is Ahemedabad</p>
+                <br>
+                <p>It is located on ahill top at a
+                    extreme height and where every point of town can be seen
+                    Timing of dargah is from 7 A.M. to 08:00pm
+                    Ahemedabad city is and Mumbai is 240 and 290 km away from this place resepctively.
+                    </p>
+                <br>
+                <i class="images">
+                    <img src="Nadurbar/dargah 1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="Nadurbar/dargah 2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="Nadurbar/dargah 3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+      function _class(name)
+   {
+return document.getElementsByClassName(name);
+   }
+ 
+let tabPanes = _class("start")[0].getElementsByTagName("div");
+ 
+for(let i=0;i<tabPanes.length;i++)
+{
+tabPanes[i].addEventListener("click",function()
+{
+    _class("start")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+    tabPanes[i].classList.add("active");
+ 
+    _class("tab-indicator")[0].style.top = 'clac(80px + ${i*5}px';
+ 
+    _class("tab-content")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+ 
+    _class("tab-content")[0].getElementsByTagName("div")
+    [i].classList.add("active");
+});
+}
+    </script>
+    <!--ended-->
+    <!--this code is for cuisine section-->
+     <section class="taglineofcuisine">
+        <img src="taglinelogoofcuisine.jpg" width="150" height="150" sizes="50">
+       <h3>Here is the cuisine of the district</h3>
+       </section>
+        <section class="bodyofcard" id="cuisinediv">
+         <div class="container2">
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Nadurbar/Daal.jpg" width="600" height="250"  alt="">
+              </div>
+              <div class="content">
+                  <h2>Daal Gandori</h2>
+                  <p>Gravy dish of Dal and local green leafy vegetable.<p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Nadurbar/Amti.jpeg"width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Sat-pudyanchi Amti</h2>
+                  <p>Cury with stuffled balls. The stuffing is ususally mixture of 7 species.</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Nadurbar/bharit.jpeg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Baingan Bharit</h2>
+                  <p>Another famous dish is Baigan Bharit it is made of big green brinjal. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Nadurbar/Poli.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Khaprawarche Manudevi</h2>
+                  <p>It is a puran Poli which is cooked on Khapar, an Earthen pot. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Nadurbar/Chutney.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Nistyachi Chutney</h2>
+                  <p> Hot and Sweet Chutney. </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Nadurbar/Bhakri.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Kalanchi Bhakri</h2>
+                  <p> Kalan mens Jowar and Udad flour 5:1 parts </p>
+              </div>
+          </div>
+          </div>
+  </section>
+  <!--ended-->
+  <!--this code is for shopping attractions-->
+     <section class="taglineofshopping">
+       <img src="taglineofshopping.png" width="150" height="150" sizes="50">
+       <h3>Lets do some shopping from the district !</h3>
+    </section>
+   <section class="shoppingattractions" id="shoppingdiv">
+      <div class="container4"> 
+          <div class="box1">
+              <img src="shopback.jpg" width="600" height="100" alt="">
+             <div class="content1">
+                <h4>DSK Complex. </h4>
+                <p> Address: Railway Colony, Viral Vihar, Nandurbar, Maharashtra 425412
+                </p>
+                <p>Timing: 24*7
+                </p>
+             </div>
+           </div>
+          <div class="box1">
+              <img src="shop2.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Rk Novalty Nandurbar</h4>
+                <p>Address: d s k market, Maharashtra 425412  
+                </p>
+                <p> Timing: 10am to 9pm.
+                </p> 
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop3.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Laxmi Suppliers</h4>
+                <p>Address:Viral Vihar, Nandurbar, Maharashtra 425412
+                </p>
+                <p>Timing: 11am to 9pm.
+                </p> 
+              </div>
+            </div>
+  </div>
+         <div class="container5">
+           <div class="box1">
+              <img src="shop4.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Hashtag Showroom</h4>
+                <p>Address:  Nandurbar, Maharashtra 425412
+                </p>
+                <p>Timing: Open at 9:30 am
+                </p>
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop5.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Om Enterprises</h4>
+                <p>Address: indira gandi complex , near yash auto mobile korit road , nandurbar, Vimal Vihar Rd, Girivihar Society, Nandurbar, Maharashtra 425412
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p>
+              </div>
+            </div>
+           <div class="box1">
+              <img src="lakshmiroad.jpg" width="600" height="200" alt="">
+               <div class="content1">
+                <h4>Yash Lakshami commercial</h4>
+                <p>Address: Nandurbar, Maharashtra 425412
+  
+                </p>
+                <p>Timing: 10am to 8.30pm.
+                </p> 
+              </div>
+           </div>
+         </div>
+   </section>
+   <!--ended-->
+   <!--this code is for other districts-->
+    <section class="lookfor">
+        <img src="searchicon.png" width="200" height="150" sizes="50">
+      <h3>You may also look for other districts !</h3>
+    </section>
+     <section class="otherdistricts">
+         <div class="container7">
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>01</h2>
+                      <h3>Jalgaon</h3>
+                      <p>Jalgaon is a district in the northern part of Maharashtra, India. The administrative seat is the city of Jalgaon.</p>
+                      <p><h4>It is 192.7 KM from Nandurbar</h4></p>
+                      <a href="C:\Users\Dell\Desktop\My project\capstone website\SOURCE CODE\jalgaon.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+           <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>02</h2>
+                      <h3>Dhule</h3>
+                      <p>Dhule district is a district of the Maharashtra state in the western region of India. The city of Dhule is the administrative headquarters of the district. It is part of North Maharashtra.</p>
+                      <p><h4>It is 164.4 KM from Nandurbar </h4></p>
+                      <a href="C:\Users\Dell\Desktop\My project\capstone website\SOURCE CODE\dhule.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>03</h2>
+                      <h3>Nashik</h3>
+                      <p> Nashik is also known as Mini Maharashtra, because the climate and soil conditions of Surgana, Peth, Igatpuri resembles with Konkan. Niphad, Sinnar, Dindori, Baglan blocks are like Western Maharashtra and Yeola, Nandgaon, Chandwad blocks are like Vidarbha Region. </p>
+                      <p><h4>It is 257.8 KM from Nandurbar</h4></p>
+                      <a href="C:\Users\Dell\Desktop\My project\capstone website\SOURCE CODE\nashik.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </section>
+     <!--ended-->
+   <!--this is code for handles-->
+   <section class="handles1">
+    <img src="internet.png" width="100" height="100" sizes="50">
+    <h5>Connect with us on our Social Handles!</h5>
+    </section> 
+    
+  <div class="handles">
+       <a href="https://www.instagram.com/mhtravel2121/"><img src="instagram.png" width="200" height="200"></a>
+       <a href="https://www.facebook.com/MH-Travel-10"><img src="facebook.png" width="200" height="200" ></a>
+       <a href="https://www.youtube.com/watch?v=BHzAPZEsYHU&t=92s"><img src="youtube.png" width="200" height="200"></a>
+       <a href="https://chat.whatsapp.com/CtJ0qi4FuyNCQ6U1hCcYj1"><img src="whatsapp.png" width="200" height="200"></a>
+       
+  </div> 
+
+  <section class="footer">
+    <div class="row">
+       <div class="col0">
+         <img src="logo 3.png" width="300" height="230">
+         <h4>Magnificient Maharashtra</h4>
+       </div>
+        
+        
+       <div class="col1">
+        <h3>Explore divisions</h3>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/kokan.html">Kokan division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/nashik.html">Nashik division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/amaravatidivision.html">Amaravati division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/aurangabaddivision.html">Aurangabad division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/nagpurdivision.html">Nagpur division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/punedivision.html">Pune division</a>
+    </div>
+    <div class="col2">
+        <h3>Other websites links</h3>
+        <br>
+        <a href="https://www.india.gov.in
+        ">Government of India</a>
+        <br>
+        <a href="https://www.maharashtra.gov.in/1125/home">Government of Maharashtra</a>
+        <br>
+        <a href="https://www.tourism-of-india.com/maharashtra">Tourism in Maharashtra</a>
+        <br>
+        <a href="https://www.maharashtratourism.gov.in">Maharashtra tourism</a>
+        <br>
+        <a href="www.mahapolice.gov.in
+        ">Maharashtra State Police</a>
+        <br>
+        <a href="https://msrtc.mahaonline.gov.in">MSRTC</a>
+        
+    </div>
+    <div class="col3">
+        <h3>Explore India</h3>
+        <br>
+        <a href="https://www.gujarattourism.com">Gujarat tourism</a>
+        <br>
+        <a href="https://www.goa-tourism.com
+        ">Goa tourism</a>
+        <br>
+        <a href="https://www.karnatakatourism.org
+        ">Karnataka tourism</a>
+        <br>
+        <a href="https://tourism.ap.gov.in">Andhra Pradesh tourism</a>
+        <br>
+        <a href="https://www.mptourism.com
+        ">Madhya Pradesh tourism</a>
+        <br>
+        <a href="https://chhattisgarhtourism.in
+        ">Chhatisgarh tourism</a>
+
+    </div>
+</div>
+<h1>&copy; Copyright @ 2021 by <span> MH Travel</span></h1>
+</section>
+</body>
+</html>
+
+

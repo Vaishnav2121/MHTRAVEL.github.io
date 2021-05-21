@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmednagar</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ahmednagar.css">
+    <link rel ="shortcut icon" href = "favicon.png" type ="image/x-icon">
+</head>
+<body>
+    <section class="header">
+        <nav>
+          <div class="logo">
+              <a href="C:\Users\Dell\Desktop\My project\capstone website\SOURCE CODE\nashik.html"><img src="logo 3.png" width="600" height="400" size="200"></a>
+          </div>
+          
+           <div class="nav-links">
+              <ul>
+                <li><a href="#destinationsdiv">Destinations</a></li>
+                <li><a href="#cuisinediv">Cuisine</a></li>
+                <li><a href="#shoppingdiv">Shopping Attractions</a></li>
+              </ul>
+          </div>
+        </nav>
+        <div class="text-box">
+          <h1>Ahmednagar</h1> 
+           <p><b><em>A Historic Town</em></b></p>
+        </div>
+   </section>
+        <section class="information">
+           <p> <b><em>Ahmednagar is a city in Ahmednagar district in the state of Maharashtra, India, about 120 km northeast of Pune and 114 km from Aurangabad. Ahmednagar takes its name from Ahmad Nizam Shah I, who founded the town in 1494 on the site of a battlefield where he won a battle against superior Bahamani forces. It was close to the site of the village of Bhingar. With the breakup of the Bahmani Sultanate, Ahmad established a new sultanate in Ahmednagar, also known as Nizam Shahi dynasty.
+            <span id="dots">...</span><span id="more">
+
+            Ahmednagar has several dozen buildings and sites from the Nizam Shahi period. Ahmednagar Fort, once considered almost impregnable, was used by the British to house Jawaharlal Nehru and other Indian Nationalists before Indian independence. A few rooms there have been converted to a museum. During his confinement by the British at Ahmednagar Fort in 1944, Nehru wrote the famous book The Discovery of India. Ahmednagar is home to the Indian Armoured Corps Centre & School (ACC&S), the Mechanised Infantry Regimental Centre (MIRC), the Vehicle Research and Development Establishment (VRDE) and the Controllerate of Quality Assurance Vehicles (CQAV). Training and recruitment for the Indian Army Armoured Corps takes place at the ACC&S.
+            
+            Ahmednagar is a relatively small town and shows less development than the nearby western Maharashtra cities of Mumbai and Pune. Ahmednagar is home to 19 sugar factories and is also the birthplace of the cooperative movement. Due to scarce rainfall, Ahmednagar often suffers from drought. Marathi is the primary language for daily-life communication. Ahmednagar has recently published a plan of developing the city by year 2031.</span> </em></b> </p>
+        </section>
+        <button type="button" id="read" onclick="read()">Read more</button>
+          <script type="text/javascript">
+           var j=0;
+           function read(){
+              if(!j){
+                 document.getElementById("more").style.
+                 display = "inline";
+                 document.getElementById("dots").style.
+                 display  = "none";
+                 document.getElementById("read").innerHTML=
+                 "Read less";
+                 j=2;
+            }
+              else{
+                  document.getElementById("more").style.
+                  display = "none";
+                  document.getElementById("dots").style.
+                  display  = "inline";
+                  document.getElementById("read").innerHTML=
+                  "Read more";
+                  j=2;
+            }
+         }
+       </script>
+       <!--this is code for population and other area literacy rate-->
+       <section class="population">
+       <div class="container1">
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="populationicon.png" width="500" height="200">
+                    <div class="text-content">
+                        <h3>POPULATION</h3>
+                        <h4>45 Lakhs</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <br>    
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="areaicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>AREA</h3>
+                        <h4> 17,048 km²</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+     <br>     
+        <div class="row">
+            <div class="column">
+                <div class="single-content">
+                    <img src="literacyicon.jpg" width="500" height="200">
+                    <div class="text-content">
+                        <h3>LITERACY RATE</h3>
+                        <h4>90.2%</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--end-->
+<!--this is code for destination slider-->
+<section class="taglineofdestination">
+    <img src="destinationslogo.png" width="150" height="150" sizes="50" >
+     <h3> Here are the destinations for you !</h3>
+</section> 
+<section class="destinations" id="destinationsdiv">
+    <div class="tabs">
+        <div class="start">
+            <div class="active">
+                <i class="fa fa-code"></i>Dhokeshwar Caves
+            </div>
+            <div>
+                <i class="fa fa-bar-chart"></i>Ratangad
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Rehkuri Sanctuary
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Kharda Fort
+            </div>
+            <div>
+                <i class="fa fa-bar-envelope"></i>Harishchandragad 
+            </div>
+        </div>
+        <div class="tab-indicator"></div>
+        <div class="tab-content">
+            <div class="active">
+                <i class="fa fa-code"></i>
+                <h3>Dhokeshwar Caves</h3>
+                <br>
+                <h5>LOCATION: Takli Dhokeshwar , Maharashtra 414304.</h5>
+                <h5>WAY TO REACH: To take MSRTC Buses is the feasible option.</h5>
+                <h5>NEARBY ATTRACTIONS: Salabat Khan's Tomb , Shani Singhnapur .</h5>
+                <p><b><em>The Dhokeshwara Cave is a large hall with triple cells, on the east side of one of two rugged hills rising from a stony plateau. The largest is 18.28m deep and 13.7m wide, front open and supported by two massive square pillars and two pillars and two massive pilasters, a little inside of these another similar row supports a great architrave running right across the temple, and within this again is the shrine, hollowed out of a rectangular block left standing from floor to roof, and surrounded by dark passage.</em></b></p>
+                <p><b><em> The chief object of worship is a linga is in central shrine. The caves are assignable to 8th century AD.
+                </em></b></p>
+                <i class="images">
+                    <img src="dhokleshwarcaves1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="dhokleshwar caves 2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="dhokleshwar caves 3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+             <div>
+                <i class="fa fa-bar-chart"></i>
+                <h3>Ratangad</h3>
+                <br>
+                <h5>LOCATION: Ratanwadi , Maharashtra.</h5>
+                <h5>WAY TO REACH: It is well connected with roads.</h5>
+                <h5>NEARBY ATTRACTIONS: Kalsubai Peak, Malshej Ghat</h5>
+                <p><b><em>At a distance of 6 km from Ratanwadi, 23 km from Bhandardara, 183 km from Pune & 197 km from Mumbai, Ratangad is an ancient hill fort situated at Ratanwadi village in Ahmednagar district of Maharashtra. Ratangad is very popular place for trekking in Maharashtra and also one of the famous Bhandardara tourist places.
+
+                    The fort is located at a height of 4250 feet. Ratangad Fort is 400 year old fort, which was used by Maratha warrior Shivaji Maharaj.</em></b></p>
+                <p><b><em>The fort has four gates known as Ganesh, Hanuman, Konkan and Trimbak.
+                    The best time to visit Ratangad is from October to December.
+                    
+                    Valley of Sandhan is a one-and-a-half-kilometer distance from Samrad village in Ahmednagar district, on the west side of the Bhandardara region. All year round, there is crowd except for four months of rainy season.
+                    The way in the valley becomes so tapering that sunlight does not reach the ground in many places. It is a memorable experience for a trip to Sandhan valley while witnessing the magnificence of Sahyadri in front of the Ajoba Mountains, Ratan Gad and the Alang-Madan-Kulang fort and the Kalsubai peak. It is said that the depth of the number two in the continent is in Asia.</em></b></p>
+                    <br>
+                <i class="images">
+                    <img src="ratangad1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="ratangad2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="ratangad3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Rehkuri Black Buck Sanctuary</h3>
+                <br>
+                <h5>LOCATION: Bargewadi, Maharashtra 414402. </h5>
+                <h5>WAYS TO REACH: City Buses and private cabs are easily available from the district.</h5>
+                <h5>NEARBY ATTRACTIONS: Kumjai Mata Temple , Nandgaon</h5>
+                <p><b><em>Located at some 80 kms away from Ahmednagar city in Karjat Taluka in village Rehkuri. Rehkuri is home to the sanctuary of rare and famous animal ‘Indian Black Bucks’. The sanctuary is known by the name Rehkuri Black Buck Sanctuary.</em></b></p>
+                <p><b><em>The entire Rehkuri Black Buck Sanctuary is spread across 2.17 Sq. Km. of land area.The best time to visit this sanctuary is during summer season. This sanctuary is open round the year.
+
+                    It is estimated that as of today there are some 400 to 500 Indian Black Bucks inside this sanctuary.</em></b></p>
+                <i class="images">
+                    <img src="rehkurisanctuary1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="rehkurisanctuary2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="rehkurisanctuary3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Kharda Fort</h3>
+                <p><b><em>Khadka fort in  taluka Jamkhed, Kharda fort is known as the oldest Shivapatan .On Mar 11, 1795, Marathas defeated Nizam at this place.This fort was built by Sardar Nimbalkar in 1745. The wall of this fort, the entrance is still in good condition and there is a barawa and mosque inside. There are 12 Jyotirlingas in the village and there is a huge crowd of devotees in month Shravan..</em></b></p>
+                <br>
+                <i class="images">
+                    <img src="khardafort1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="khardafort2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="khardafort3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <h3>Harishchandragad</h3>
+                <p><b><em>At a distance of 8 km from Khireshwar, 50 km from Bhandardara, 166 km from Pune & 218 km from Mumbai, Harishchandragad is a historical hill fort situated in Ahmednagar district of Maharashtra. The height of the fort is 1,424 meters.. Harishchandragad is very popular place for trekking in Maharashtra and also one of the famous Bhandardara tourist places. </em></b></p>
+            <p><b><em>The fort originally dates back to the 6th century during the rule of Kalchuri dynasty. The citadel was built during this era and various caves probably have been carved out in the 11th century AD. Sage Changdev used to meditate here in 14th century AD. Later the fort was under the control of Mughals and Marathas captured it in 1747 AD. Remnants of Microlithic human inhabitants have been discovered here. The various Puranas like Matsyapurana, Agnipurana and Skandapurana have many references about Harishchandragad.</em></b></p>   
+            <br>
+                <i class="images">
+                    <img src="harishchandragad1.jpg" width="300" height="200" sizes="50">
+                 <br><br>
+                   <img src="harishchandragad2.jpg" width="300" height="200" sizes="50">
+                <br><br>
+                   <img src="harishchandragad3.jpg" width="300" height="200" sizes="50">
+                </i>
+            </div>
+        </div>
+    </div>
+</section>
+    <script>
+      function _class(name)
+   {
+return document.getElementsByClassName(name);
+   }
+
+let tabPanes = _class("start")[0].getElementsByTagName("div");
+
+for(let i=0;i<tabPanes.length;i++)
+{
+tabPanes[i].addEventListener("click",function()
+{
+    _class("start")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+    tabPanes[i].classList.add("active");
+
+    _class("tab-indicator")[0].style.top = 'clac(80px + ${i*5}px';
+
+    _class("tab-content")[0].getElementsByClassName("active")
+    [0].classList.remove("active");
+
+    _class("tab-content")[0].getElementsByTagName("div")
+    [i].classList.add("active");
+});
+}
+    </script>
+    <!--ended-->
+    <!--this code is for cuisine section-->
+     <section class="taglineofcuisine">
+        <img src="taglinelogoofcuisine.jpg" width="150" height="150" sizes="50">
+       <h3>Let's have a look at cuisines of the district</h3>
+       </section>
+        <section class="bodyofcard" id="cuisinediv">
+         <div class="container2">
+          <div class="card">
+              <div class="imgBx">
+                  <img src="sabudanakhichadi.jpg" width="600" height="250"  alt="">
+              </div>
+              <div class="content">
+                  <h2>Sabudana Khichadi</h2>
+                  <p><em>Sabudana Khichdi is commonly prepared in maharashtra during the fasting season of Navratri.</em> <p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="sevpuri.jpg"width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Sev puri</h2>
+                  <p>Sev Puri is a sweet, spicy and tangy chaat popular street food of the district.</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="puranpoli.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Puran poli</h2>
+                  <p>Puran poli is a sweet flatbread stuffed with a sweet lentil filling made from husked chana dal and jaggery.  </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="kachoori.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Kachoori</h2>
+                  <p>Kachori is made with all purpose flour (maida) and has a rich filling made of a large variety of ingredients.  </p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="Rassapatodi.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Rassa Patodi</h2>
+                  <p> Patodi Rassa Bhaji or patwadi Sabji is a spicy recipe served with Chapati and salad.</p>
+              </div>
+          </div>
+          <div class="card">
+              <div class="imgBx">
+                  <img src="aamtidal.jpg" width="600" height="250" alt="">
+              </div>
+              <div class="content">
+                  <h2>Aamti</h2>
+                  <p>Maharashtrian Aamti is really comfort food and has a sweet taste with bit sourness. </p>
+              </div>
+          </div>
+          </div>
+  </section>
+  <!--ended-->
+  <!--this code is for shopping attractions-->
+     <section class="taglineofshopping">
+       <img src="taglineofshopping.png" width="150" height="150" sizes="50">
+       <h3>Lets do some shopping from the district !</h3>
+    </section>
+   <section class="shoppingattractions" id="shoppingdiv">
+      <div class="container4"> 
+          <div class="box1">
+              <img src="shopback.jpg" width="600" height="100" alt="">
+             <div class="content1">
+                <h4>Cantonment Shopping Plaza</h4>
+                <p> Address: National Highway 222, Mukundnagar, Ahmednagar, Maharashtra 414001
+                </p>
+                <p>Timing: 9am to 8pm.
+                </p>
+             </div>
+           </div>
+          <div class="box1">
+              <img src="shop2.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Reliance Trends</h4>
+                <p>Address: Savedi Rd, Opposite Chandu Kaka Saraf, Savedi, Ahmednagar, Maharashtra 414003
+                </p>
+                <p> Timing: 10am to 10pm.
+                </p> 
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop3.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>MR Trade Centre </h4>
+                <p>Address: 159, Wadia Park, Tilak Rd, Maliwada, Ahmednagar, Maharashtra 414001
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p> 
+              </div>
+            </div>
+  </div>
+         <div class="container5">
+           <div class="box1">
+              <img src="shop4.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Ramanand Shopping Centre</h4>
+                <p>Address: Dnyaneshwar Nagar, Ahmednagar, Maharashtra 414003
+                </p>
+                <p>Timing: 8am to 10pm.
+                </p>
+              </div>
+           </div>
+           <div class="box1">
+              <img src="shop5.jpg" width="600" height="200" alt="">
+              <div class="content1">
+                <h4>Libas Shopping Mall </h4>
+                <p>Address: Shahaji Road, Kapad Bazar Ahmednagar - 414001,
+                </p>
+                <p>Timing: 9am to 9pm.
+                </p>
+              </div>
+            </div>
+           <div class="box1">
+              <img src="lakshmiroad.jpg" width="600" height="200" alt="">
+               <div class="content1">
+                <h4>Ezzi Mall</h4>
+                <p>Address: Ho No 3842,Opposite Kotwali Police Station,Near Manik Chowk, Ahmednagar  
+                </p>
+                <p>Timing: 10am to 8.30pm.
+                </p> 
+              </div>
+           </div>
+         </div>
+   </section>
+   <!--ended-->
+   <!--this code is for other districts-->
+    <section class="lookfor">
+        <img src="searchicon.png" width="200" height="150" sizes="50">
+      <h3>You may also look for other districts !</h3>
+    </section>
+     <section class="otherdistricts">
+         <div class="container7">
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>01</h2>
+                      <h3>Jalna</h3>
+                      <p> Jalna district is approximately situated at the center part of Maharashtra state of Republic of India and in northern direction of Marathwada region.</p>
+                      <p><h4>It is 60 KM from Aurangabad</h4></p>
+                      <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/jalana.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+           <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>02</h2>
+                      <h3>Beed</h3>
+                      <p>Beed is a historical city of possibly medieval origin of India.It is situated on the Deccan Plateau, on the banks of the Bensura river. Bensura is a sub-tributary of Godavari river originating in the hills of Balaghat range.</p>
+                      <p><h4>It is 125 KM from Aurangabad</h4></p>
+                      <a href="C:\Users\Dell\Desktop\My project\capstone website\SOURCE CODE\beed.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+            <div class="cardm">
+              <div class="box3">
+                  <div class="content3">
+                      <h2>03</h2>
+                      <h3>Latur</h3>
+                      <p>Latur is a district in Maharashtra state of India. It is the 16th largest city in Maharashtra with district headquarter located in the city. The district comes under Marathwada region of Maharashtra. </p>
+                      <p><h4>It is 265 KM from Aurangabad</h4></p>
+                      <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/latur.html">Explore</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+     </section>
+     <!--ended-->
+   <!--this is code for handles-->
+   <section class="handles1">
+    <img src="internet.png" width="100" height="100" sizes="50">
+    <h5>Connect with us on our Social Handles!</h5>
+    </section> 
+    
+  <div class="handles">
+       <a href="https://www.instagram.com/mhtravel2121/"><img src="instagram.png" width="200" height="200"></a>
+       <a href="https://www.facebook.com/MH-Travel-10"><img src="facebook.png" width="200" height="200" ></a>
+       <a href="https://www.youtube.com/watch?v=BHzAPZEsYHU&t=92s"><img src="youtube.png" width="200" height="200"></a>
+       <a href="https://chat.whatsapp.com/CtJ0qi4FuyNCQ6U1hCcYj1"><img src="whatsapp.png" width="200" height="200"></a>
+       
+  </div> 
+
+  <section class="footer">
+    <div class="row">
+       <div class="col0">
+         <img src="logo 3.png" width="300" height="230">
+         <h4>Magnificient Maharashtra</h4>
+       </div>
+        
+        
+       <div class="col1">
+        <h3>Explore divisions</h3>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/kokan.html">Kokan division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/nashik.html">Nashik division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/amaravatidivision.html">Amaravati division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/aurangabaddivision.html">Aurangabad division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/nagpurdivision.html">Nagpur division</a>
+        <br>
+        <a href="file:///C:/Users/Dell/Desktop/My%20project/capstone%20website/SOURCE%20CODE/punedivision.html">Pune division</a>
+    </div>
+    <div class="col2">
+        <h3>Other websites links</h3>
+        <br>
+        <a href="https://www.india.gov.in
+        ">Government of India</a>
+        <br>
+        <a href="https://www.maharashtra.gov.in/1125/home">Government of Maharashtra</a>
+        <br>
+        <a href="https://www.tourism-of-india.com/maharashtra">Tourism in Maharashtra</a>
+        <br>
+        <a href="https://www.maharashtratourism.gov.in">Maharashtra tourism</a>
+        <br>
+        <a href="www.mahapolice.gov.in
+        ">Maharashtra state Police</a>
+        <br>
+        <a href="https://msrtc.mahaonline.gov.in">MSRTC</a>
+        
+    </div>
+    <div class="col3">
+        <h3>Explore India</h3>
+        <br>
+        <a href="https://www.gujarattourism.com">Gujarat tourism</a>
+        <br>
+        <a href="https://www.goa-tourism.com
+        ">Goa tourism</a>
+        <br>
+        <a href="https://www.karnatakatourism.org
+        ">Karnataka tourism</a>
+        <br>
+        <a href="https://tourism.ap.gov.in">Andhrapradesh tourism</a>
+        <br>
+        <a href="https://www.mptourism.com
+        ">Madhyapradesh tourism</a>
+        <br>
+        <a href="https://chhattisgarhtourism.in
+        ">Chhatisgarh tourism</a>
+
+    </div>
+</div>
+<h1>&copy; copyright @ 2021 by <span> MH Travel</span></h1>
+</section>
+</body>
+</html>
