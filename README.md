@@ -1,2 +1,2 @@
-# Vaishnav2121.github.io
+https://vaishnav2121.github.io/index.html
 This is a Tourism Website Developed by a group of First Year B.Tech Students. It consists all the information regarding the state of Maharashtra. Do check it if Planning a Travel Itinerary to this Magnetic State.
